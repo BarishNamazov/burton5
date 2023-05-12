@@ -1,10 +1,6 @@
 .main-nav {
   display: flex;
   align-items: center;
-  .site-logo a {
-    display: flex;
-    gap: 0.5em;
-  }
 }
 
 @include belowMenuBreakpoint {
