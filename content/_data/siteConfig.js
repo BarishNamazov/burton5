@@ -99,7 +99,7 @@ module.exports = {
   opengraph: {
     type: 'website',
     // Default image to use when none is specified
-    // image: '/images/share-400x400.jpg',
+    image: '/images/og.png',
     // Opt-in to automatic generation of OpenGraph images
     // If disabled, default images will be used
     // If enabled, make sure you _like_ the way they look like
