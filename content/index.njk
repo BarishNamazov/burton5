@@ -1,6 +1,5 @@
 ---
 layout: base
-eleventyExcludeFromCollections: true
 pagination:
   data: collections.publishedPosts
   size: 10
@@ -9,6 +8,10 @@ permalink: "{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}{%
 disclaimer:
   text: If you haven't signed the housing license, do it now! Clicking here takes you to portal. (Forms > General Forms > Sign My License Agreement)
   url: https://mit.starrezhousing.com/StarRezPortalX
+
+eleventyNavigation:
+  key: Home
+  order: 0
 ---
 
 {% include "disclaimers/disclaimer.njk" %}
