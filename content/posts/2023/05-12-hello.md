@@ -1,5 +1,6 @@
 ---
 title: Hello hello!
+customPermalink: hello
 description: Burton 5 website first post!
 date: 2023-05-12
 tags:
